@@ -1,0 +1,99 @@
+.main-container {
+    background-color: #002244;
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.screen-container {
+    background-color: 002244;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.screen-header {
+    background-color: 002244;
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.screen-main {
+    background-color: 002244;
+    width: 350px;
+    height: 200px;
+    margin-top: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 100px;
+    
+}
+
+
+.screen-sub1 {
+    background-color: 002244;
+    width: 325px;
+    height: 30px;
+    
+}
+
+.screen-sub2 {
+    background-color: 002244;
+    width: 325px;
+    height: 50px;
+    margin-top: px;
+}
+
+.content-container {
+    background-color:#002244;
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.content-strip {
+    background-color: #002244;
+    width: 325px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 45px; 
+    width: 70px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    background-color: #092b4d;
+}
+button:active {
+    background-color: black;
+    transform: translateY(4px);
+  }
+
+
+body {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center ;
+    margin-top: 5%;
+}
