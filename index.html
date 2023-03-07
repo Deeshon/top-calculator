@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
 </head>
 <body>
     <div class="main-container">
@@ -14,11 +16,11 @@
                 <h3 style="color: white; padding-top: 10px; padding-left: 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">☰ Standard</h3>
             </div>
             <div class="screen-main">
-                <div class="screen-sub1" style="text-align: right; font-size: small;">
-                    120x20
+                <div class="screen-sub1" style="text-align: right; ">
+                    <h4 id="sub1"></h4>
                 </div>
                 <div class="screen-sub2" style="text-align: right; font-weight: 1000; font-size: 30px;">
-                    2400
+                    <h3 id="sub2">0</h3>
                 </div>
             </div>
 
@@ -27,41 +29,41 @@
             <div class="content-strip">
                 <div class="content-block">
                     <div><button>%</button></div>
-                    <div><button>C</button></div>
-                    <div><button>AC</button></div>
-                    <div><button>/</button></div>
+                    <div><button id="clear">C</button></div>
+                    <div><button id="clearAll">AC</button></div>
+                    <div><button class="operators">/</button></div>
                 </div>
             </div> 
             <div class="content-strip">
                 <div class="content-block">
-                    <div><button>7</button></div>
-                    <div><button>8</button></div>
-                    <div><button>9</button></div>
-                    <div><button>x</button></div>
+                    <div><button class="digits" id="n7">7</button></div>
+                    <div><button class="digits" id="n8">8</button></div>
+                    <div><button class="digits" id="n9">9</button></div>
+                    <div><button class="operators">*</button></div>
                 </div>
             </div>   
             <div class="content-strip">
                 <div class="content-block">
-                    <div><button>4</button></div>
-                    <div><button>5</button></div>
-                    <div><button>6</button></div>
-                    <div><button>-</button></div>
+                    <div><button class="digits" id="n4">4</button></div>
+                    <div><button class="digits" id="n5">5</button></div>
+                    <div><button class="digits" id="n6">6</button></div>
+                    <div><button class="operators">-</button></div>
                 </div>
             </div> 
             <div class="content-strip">
                 <div class="content-block">
-                    <div><button>1</button></div>
-                    <div><button>2</button></div>
-                    <div><button>3</button></div>
-                    <div><button>+</button></div>
+                    <div><button class="digits" id="n1">1</button></div>
+                    <div><button class="digits" id="n2">2</button></div>
+                    <div><button class="digits" id="n3">3</button></div>
+                    <div><button class="operators">+</button></div>
                 </div>
             </div> 
             <div class="content-strip">
                 <div class="content-block">
-                    <div><button></button></div>
-                    <div><button>0</button></div>
+                    <div><button>:)</button></div>
+                    <div><button class="digits" id="n0">0</button></div>
                     <div><button>.</button></div>
-                    <div><button>=</button></div>
+                    <div><button id="equal">=</button></div>
                 </div>
             </div> 
             
